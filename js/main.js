@@ -11,7 +11,6 @@ addTask.onclick = function(){
   chekbox.setAttribute("id","check")
   li.innerHTML = inp_val.value
   li.setAttribute("for" , "check")
-  console.log(li);
   
   if(inp_val.value==""){
     alert("please enter a task")
